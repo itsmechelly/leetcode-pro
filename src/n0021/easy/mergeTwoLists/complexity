@@ -1,0 +1,8 @@
+Linked List:
+
+time:
+in worst case we going over all elements so
+O(n)
+
+space:
+O(1)
