@@ -1,0 +1,4 @@
+HashSet:
+run over 2 ListNode so it's
+O(n) time
+O(n) space
