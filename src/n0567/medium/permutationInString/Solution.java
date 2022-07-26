@@ -1,4 +1,4 @@
-package n567.medium.permutationInString;
+package n0567.medium.permutationInString;
 
 import java.util.Arrays;
 
