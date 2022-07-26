@@ -1,0 +1,5 @@
+HashMap:
+O(1)
+
+Array:
+O(n*m) ?
