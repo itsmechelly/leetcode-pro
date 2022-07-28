@@ -1,5 +1,23 @@
+solution:
+
 time O(n)
 (I can even maybe say it's O(1) because IP has constant number (?))
 
 space O(n)
 (because I building a new String that will hold n chars + few more '[' & ']' chars)
+
+---
+
+solution2:
+
+time O(n)
+
+space O(1)
+
+---
+
+solution3:
+
+time O(n)
+
+space O(1)
