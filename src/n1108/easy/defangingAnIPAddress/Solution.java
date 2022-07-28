@@ -1,4 +1,4 @@
-package n1108.easy.defanginganIPAddress;
+package n1108.easy.defangingAnIPAddress;
 
 public class Solution {
 
