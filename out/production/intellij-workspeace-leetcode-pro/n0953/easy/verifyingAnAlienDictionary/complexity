@@ -1,0 +1,28 @@
+let n be the length of order,
+and m be the total number of characters in words.
+
+---
+
+Storing the letter-order relation of each letter takes O(n) time.
+For the nested for-loops, we examine each pair of words in the outer-loop
+and for the inner loop, we check each letter in the current word.
+Therefore, we will iterate over all of letters in words.
+
+Taking both into consideration,
+the time complexity is O(m + n).
+
+However, we know that NN is fixed as 26.
+Therefore, the time complexity is O(m).
+
+time O(m)
+
+---
+
+The only extra data structure we use is the array
+that serves to store the letter-order relations for each word in order.
+Because the length of order is fixed as 26,
+this approach achieves constant space complexity.
+
+space O(1)
+
+---
