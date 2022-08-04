@@ -3,7 +3,7 @@ package n0001.easy.twoSum;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class SolutionWithHashSet {
+public class SolutionWithHashMap {
 
     public int[] twoSum(int[] nums, int target) {
 
@@ -25,7 +25,7 @@ public class SolutionWithHashSet {
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-        SolutionWithHashSet solution = new SolutionWithHashSet();
+        SolutionWithHashMap solution = new SolutionWithHashMap();
         System.out.println(Arrays.toString(solution.twoSum(nums, target)));
 
         int[] nums2 = {3, 2, 3};
