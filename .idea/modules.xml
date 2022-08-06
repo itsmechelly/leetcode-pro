@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/finaro-project/finaro-project.iml" filepath="$PROJECT_DIR$/../Desktop/finaro-project/finaro-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/intellij-workspeace-leetcode-pro.iml" filepath="$PROJECT_DIR$/intellij-workspeace-leetcode-pro.iml" />
     </modules>
   </component>
