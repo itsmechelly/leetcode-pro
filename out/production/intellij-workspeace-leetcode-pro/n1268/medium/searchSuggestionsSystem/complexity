@@ -1,0 +1,55 @@
+solutionWithBinarySearch:
+
+time O(m^2)
+space varies between O(1) and O(n)
+
+-
+
+time: O(nlog(n)) + O(mlog(n))
+where n is the length of products
+and m is the length of the search word
+
+here we treat string comparison in sorting as O(1)
+O(nlog(n)) comes from the sorting
+and
+O(mlog(n)) comes from running binary search on products m times
+
+in java there is an additional complexity of O(m^2)
+due to Strings being immutable,
+here m is the length of searchWord
+
+-
+
+space: varies between O(1) and O(n)
+where n is the length of products,
+as it depends on the implementation used for sorting
+
+we ignore the space required for output
+as it does not affect the algorithm's space complexity
+
+---
+
+solutionWithTrie:
+
+time O(m^2)
+space O(m)
+
+-
+
+time: O(m) to build the trie
+where M is total number of characters in products
+for each prefix we find its representative node in O(len(prefix))
+and dfs to find at most 3 words which is an O(1) operation
+
+thus the overall complexity is dominated by the time required to build the trie
+
+In Java there is an additional complexity of O(m^2)
+due to Strings being immutable, here m is the length of searchWord
+
+-
+
+space: O(26n)=O(n)
+
+here n is the number of nodes in the trie
+26 is the alphabet size
+space required for output is O(m) where m is the length of the search word
