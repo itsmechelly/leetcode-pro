@@ -1,2 +1,2 @@
-time O()
-space O()
+time O(n*m)
+space O(1)
