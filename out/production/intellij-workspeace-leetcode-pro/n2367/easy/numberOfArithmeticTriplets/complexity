@@ -1,2 +1,2 @@
-time O()
-space O()
+time O(n*n*n)?
+space O(1)?
