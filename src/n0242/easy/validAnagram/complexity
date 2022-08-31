@@ -1,0 +1,7 @@
+array:
+time O(nlogn)   (-> toCharArray)
+space O(1)
+
+hashMap:
+time O(s+t) = O(n)
+space O(s+t) = O(n)
