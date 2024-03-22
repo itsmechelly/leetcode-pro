@@ -1,0 +1,44 @@
+solution:
+
+time:
+O(n)
+
+space:
+o(1)
+
+---
+
+The time complexity of this function is O(n),
+where n is the length of the input array nums.
+The function iterates through the array once using a single loop.
+In the worst case scenario, when there are no duplicates in the array, the loop will run n times.
+
+The space complexity of the function is O(1).
+This is because the function modifies the input array nums in-place
+without using any additional data structures that scale with the size of the input.
+It only uses a few extra integer variables (k, i), regardless of the size of the input array.
+Therefore, the space complexity is constant.
+
+---------
+
+
+solution2:
+
+time:
+O(n)
+
+space:
+o(1)
+
+---
+
+The time complexity of the provided function is O(n),
+where n is the length of the input array nums.
+This is because the function iterates through the array once using a single loop.
+In the worst case, when there are no duplicates in the array, the loop will run n times.
+
+The space complexity of the function is O(1),
+meaning it uses constant space regardless of the size of the input array.
+This is because the function only uses a few integer variables (k, i)
+and does not create any additional data structures or allocate extra memory that scales with the input size.
+Therefore, the space complexity is constant.

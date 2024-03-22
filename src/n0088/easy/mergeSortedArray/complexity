@@ -1,0 +1,19 @@
+time:
+O(m + n)
+
+space:
+O(1)
+
+---
+
+The time complexity of the provided solution is O(m + n),
+where m is the length of nums1 and n is the length of nums2.
+This is because the solution iterates through both arrays once,
+and the number of iterations is proportional to the sum of the lengths of both arrays.
+
+The space complexity of the solution is O(1).
+This is because the algorithm performs the merging in-place,
+modifying the nums1 array without using any additional space that scales with the size of the input arrays.
+The only additional space used is for a few integer variables to keep track of indices,
+which is constant regardless of the size of the input arrays.
+Therefore, the space complexity is constant or O(1).

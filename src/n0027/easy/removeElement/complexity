@@ -1,0 +1,22 @@
+Time:
+O(n)
+
+Space:
+O(1)
+
+---
+
+The given solution has a time complexity of O(n) and a space complexity of O(1),
+where n is the number of elements in the array nums.
+
+Here's the breakdown:
+
+Time Complexity:
+The solution iterates through each element of the array nums once using a single loop.
+Since the loop runs for n iterations,
+where n is the length of the array nums, the time complexity is O(n).
+
+Space Complexity:
+The solution modifies the input array nums in-place without using any additional data structures that scale with the size of the input.
+It only uses a constant amount of extra space for a few variables (k, i), regardless of the size of the input array.
+Therefore, the space complexity is O(1).

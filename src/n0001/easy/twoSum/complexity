@@ -1,5 +1,7 @@
 HashMap:
-O(1)
+O(n)
+O(n)
 
 Array:
 O(n*m)
+O(0)
